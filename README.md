@@ -10,7 +10,8 @@ Video Presentation文件夹中包含了攻击、防御、跳频攻击和CNN防�
 所用到的编程语言：
 	MATLAB
  	Python3.8
-	----requirements为：
+
+requirements为：
 		numpy == 1.20.3
 		torch==1.10.0
 		torchaudio==0.10.0
