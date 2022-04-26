@@ -14,13 +14,13 @@ model_UI.py包含可执行文件界面UI的设计代码文件
 
 ## requirements为：
 
-numpy == 1.20.3
-torch==1.10.0
-torchaudio==0.10.0
-tkinter==8.5.0
-windnd==1.0.7
-python_speech_features==0.6
-wavfile==2.2.0
+	numpy == 1.20.3
+	torch==1.10.0
+	torchaudio==0.10.0
+	tkinter==8.5.0
+	windnd==1.0.7
+	python_speech_features==0.6
+	wavfile==2.2.0
 
 ## 原理展示
 		
