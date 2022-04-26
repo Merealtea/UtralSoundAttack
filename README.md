@@ -23,5 +23,11 @@
 	wavfile==2.2.0
 
 ## 原理展示
+
+### 攻击原理
+由于智能手机放大器模组存在一定程度的高频非线性放大现象。我们利用该现象，将攻击信号调制到高频，使得信号通过手机放大器模组后发生自卷积效应，使得高频信号回到低频，被手机接收
+[!images](https://github.com/Merealtea/UtralSoundAttack/fig/AttackTheory.png)
 		
-		
+### 卷积防御原理
+由于手机接收到的攻击信号存在明显的失真和高频分量部分较大，我们认为可以使用神经网络实现二分类任务，从而屏蔽攻击信号，只接收正常的语音信号。
+[!images](https://github.com/Merealtea/UtralSoundAttack/fig/CNNStructure.png)
