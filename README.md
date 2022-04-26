@@ -30,4 +30,4 @@
 		
 ### 卷积防御原理
 由于手机接收到的攻击信号存在明显的失真和高频分量部分较大，我们认为可以使用神经网络实现二分类任务，从而屏蔽攻击信号，只接收正常的语音信号。
-![image text](https://github.com/Merealtea/UtralSoundAttack/blob/main/fig/CNNStructure.png)
+![image text](https://github.com/Merealtea/UtralSoundAttack/blob/main/fig/CNNStructue.png)
